@@ -1,5 +1,5 @@
 {
-  "name": "jx-template",
+  "name": "react-native-full-template",
   "version": "0.0.4",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {

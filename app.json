@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "jx-template",
-    "slug": "jx-template",
+    "name": "react-native-full-template",
+    "slug": "react-native-full-template",
     "privacy": "public",
     "sdkVersion": "35.0.0",
     "platforms": [
