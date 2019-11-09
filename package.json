@@ -1,6 +1,6 @@
 {
   "name": "react-native-full-template",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -22,5 +22,25 @@
   },
   "devDependencies": {
     "babel-preset-expo": "^7.1.0"
-  }
+  },
+  "author": {
+    "name": "Jefferson Xavier",
+    "email": "jeffersonx.xavier@gmail.com",
+    "url": "https://github.com/jeffersonxavier"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffersonxavier/react-native-full-template"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "react-navigation",
+    "template",
+    "expo",
+    "init",
+    "axios"
+  ],
+  "homepage": "https://github.com/jeffersonxavier/react-native-full-template",
+  "license": "MIT"
 }
