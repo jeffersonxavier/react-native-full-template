@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 const Home = () => (
   <View style={styles.container}>
-    <Text>Welcome to Expo JX Template!</Text>
+    <Text>Welcome to Expo React Native Full Template!</Text>
   </View>
 );
 
