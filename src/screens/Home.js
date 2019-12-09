@@ -44,6 +44,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+
+  todo: {
+    padding: 20,
+  }
 });
 
 const mapStateToProps = (state) => {

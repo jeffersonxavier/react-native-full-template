@@ -16,7 +16,6 @@ export const fakeRequestTodo = (id) => (dispatch) => {
   return new Promise((resolve, reject) => {
     axios.get(`https://jsonplaceholder.typicode.com/todos/${id}`)
       .then(({ data }) => {
-        console.log(data)
         dispatch(receiveTodo('success', data));
         resolve();
       })
