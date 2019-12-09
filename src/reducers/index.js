@@ -13,4 +13,17 @@ function isFetching(state = false, action) {
   }
 }
 
-export default combineReducers({ isFetching });
+function todo(state = {}, action) {
+  switch (action.type) {
+    case RECEIVE_TODO:
+      if (action.status == 'success') {
+        return { data: action.data };
+      } else {
+        return { error: true };
+      }
+    default:
+      return state;
+  }
+}
+
+export default combineReducers({ isFetching, todo });
